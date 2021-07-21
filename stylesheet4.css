@@ -1,0 +1,128 @@
+#WebLogo1 {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    
+}
+h1 {
+    font-size: 100px;
+}
+p {
+    border: 5px solid black;
+    border-radius: 12px;
+    font-size: 165%;
+    color: orange;
+}
+
+body {
+    background-color:slateblue;
+}
+img {
+    width: 400px;
+    height: 250px;
+  }
+
+/* Style the header */
+#header {
+    background-color: dodgerblue;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Style the footer */
+  #footer {
+    background-color: dodgerblue;
+    padding: 10px;
+    text-align: center;
+  }
+  #footerP {
+      background-color: dodgerblue;
+      color: yellow;
+      text-align: center;
+  }
+  #another1 {
+      width: 125px;
+      height: 125px;
+  }
+  h3 {
+      font-size: 75px;
+  }
+  #button1 {
+    background-color:dodgerblue;
+    border: 2px solid black;
+    color: yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+a{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#topnav{
+    background: yellow;
+}
+#topnav:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+#topnav ul{
+    list-style: none;
+    margin: 0;
+}
+#topnav > ul > li{
+    float: left;
+    position: relative;
+}
+#topnav ul li a{
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 15px 20px;
+    display: block;
+}
+#topnav ul li:hover a{
+    background: dodgerblue;
+    color: yellow;
+}
+
+#topnav ul ul{
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+#topnav ul li:hover > ul{
+    display: block;
+}
+#topnav ul ul li:hover a{
+    background: yellow;
+    color: dodgerblue;
+}
+
+h2 {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+a:link, a:visited {
+    background-color: yellow;
+    color: dodgerblue;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: dodgerblue;
+    color: yellow;
+  }
+  h4 {
+      font-size: 30px;
+  }
